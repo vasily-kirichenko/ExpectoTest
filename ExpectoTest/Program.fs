@@ -14,4 +14,5 @@ let tests =
 let main argv = 
     runTestsWithArgs defaultConfig argv tests |> ignore
     Console.ReadKey() |> ignore
+    let x = lazy (1)
     0
